@@ -1,6 +1,4 @@
 import java.io.IOException;
-
-// DOM
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -15,7 +13,7 @@ public class XMLUtils {
     private XMLUtils() {
     }
 
-    // validate using DOM (DTD as defined in the XML)
+    
     public static boolean validateWithDTDUsingDOM(String xml)
             throws ParserConfigurationException, IOException {
         try {
@@ -55,7 +53,6 @@ public class XMLUtils {
     public static void main(String args[]) throws Exception {
 
         System.out.println(XMLUtils.validateWithDTDUsingDOM("./Book.xml"));
-        // System.out.println(XMLUtils.validateWithDTDUsingSAX("c:/temp/howto.xml"));
-
+        
     }
 }
