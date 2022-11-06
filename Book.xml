@@ -1,0 +1,20 @@
+<books>
+    <book genre="sports">
+        <title>Cricket</title>
+        <author>Harsha Bhogle</author>
+        <pages>300</pages>
+        <price>$25</price>
+    </book>
+    <book genre="thriller">
+        <title>Verity</title>
+        <author>Colleen Hoover</author>
+        <pages>250</pages>
+        <price>$30</price>
+    </book>
+    <book genre="romance">
+        <title>Love</title>
+        <author>Mark Anderson</author>
+        <pages>400</pages>
+        <price>$35</price>
+    </book>
+</books>

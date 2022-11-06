@@ -1,0 +1,7 @@
+<!ELEMENT Books (book)*>
+<!ATTLIST book genre CDATA "action">
+<!ELEMENT book (title,author,pages,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
